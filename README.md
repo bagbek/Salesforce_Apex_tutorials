@@ -1,2 +1,2 @@
 # ApexForBegginer
-All the basic to start to learn Apex 
+Begginer's guide to Apex Programming in Salesforce
