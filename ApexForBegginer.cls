@@ -437,12 +437,32 @@ String physicsMarks = '72';
 String chemistryMarks = '64';
 String mathMarks = '87';
 
+//Starting with integer 
+Integer total =Integer.valueOf(physicsMarks) + Integer.valueOf(chemistryMarks) + Integer.valueOf(mathMarks));
+
+//What if we need to start with String 
 String total = String.valueOf(
                     Integer.valueOf(physicsMarks) + Integer.valueOf(chemistryMarks) + Integer.valueOf(mathMarks));
 
 System.debug('Total - '+total);
 
 
+//--------------------------------If-Else Statement-------------------------
+Boolean isItSunny = true;
+Boolean isItRaining = false;
+Boolean areYouWorking = false;
+
+if(isItSunny == false){
+    System.debug('Do not go to party');
+} else if (isItRaining == true){
+    System.debug('Do not go to party');
+} else if ( areYouWorking == true){
+    System.debug('Do not go to party');
+} else{
+    //multi line code block
+    System.debug('Yayy!! its party time');
+    System.debug('2nd line');
+    System.debug('3rd line');
 
 
 
